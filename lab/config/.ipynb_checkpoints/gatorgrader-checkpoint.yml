@@ -1,17 +1,17 @@
 ---
-name: cmpsc-100-week-03-lab
+name: cmpsc-100-week-04-lab
 break: true
 indent: 4
 ---
 
-Week 03 - Lab - The Mega Move.ipynb:
+Week 04 - Lab - The Ballot Bonanza.ipynb:
     ConfirmFileExists
-    MatchFileFragment --fragment "input(" --count 3 --exact
-    MatchFileFragment --fragment "while" --count 2
-    MatchFileFragment --fragment "box = []" --count 1 --exact
-    MatchFileFragment --fragment "[-1]" --count 1
-    MatchFileFragment --fragment "box.append(" --count 1 --exact
-    MatchFileFragment --fragment "box.remove(" --count 1 --exact
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "for candidate in ballot" --count 1 --exact
+    MatchFileFragment --fragment "ballot[candidate]" --count 1
+    MatchFileFragment --fragment "while" --count 1
+    MatchFileFragment --fragment "input(" --count 1
+    MatchFileFragment --fragment "ballot = {}" --count 1
 
 reflection.md:
     ConfirmFileExists
@@ -19,13 +19,6 @@ reflection.md:
     CountFileWords --count 300
     CountFileParagraphs --count 6
 
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "purple wizard hat" --count 3
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "magic dust" --count 3
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "box of magic wands" --count 3
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "blue wizard hat" --count 3
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "stack of Clawparazzis" --count 3
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "glass beaker" --count 3
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "green wizard hat" --count 3
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "Lizard Wizard action figure" --count 3
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "G. Wiz self portrait" --count 3
-MatchCommandFragment --command "python3 Week_03_-_Lab_-_The_Mega_Move.py < .inputs/.inventory" --fragment "insect collection case" --count 3
+MatchCommandFragment --command "python3 Week_04_-_Lab_-_The_Ballot_Bonanza.py < .inputs/.votes" --fragment "The winner is G. Wiz -- with 104 votes." --count 1 --exact
+MatchCommandFragment --command "python3 Week_04_-_Lab_-_The_Ballot_Bonanza.py < .inputs/.votes" --fragment "Prof. Luman received 1 votes." --count 1 --exact
+MatchCommandFragment --command "python3 Week_04_-_Lab_-_The_Ballot_Bonanza.py < .inputs/.votes" --fragment "Ulysses received 1 votes." --count 1 --exact

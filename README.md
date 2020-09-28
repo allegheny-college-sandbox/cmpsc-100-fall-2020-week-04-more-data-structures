@@ -69,7 +69,7 @@ git clone git@github.com:allegheny-college-cmpsc-100-fall-2020/cmpsc-100-fall-20
 
 ### Lab 
 
-* See individual [lab guidelines](lab/#Requirements)
+* See individual [lab guidelines](lab/Week%2004%20-%20Lab%20-%20The%20Ballot%20Bonanza.ipynb#Requirements)
 
 ### Repository
 
@@ -79,12 +79,12 @@ git clone git@github.com:allegheny-college-cmpsc-100-fall-2020/cmpsc-100-fall-20
 
 ## Worksheets and activities
 
-* [Week 03, Worksheet 0: Data structures (lists)](worksheets/.ipynb)
-* [Week 03, Worksheet 1: Data structures (tuples, lists, and slices)](worksheets/.ipynb)
+* [Week 03, Worksheet 0: Data structures (lists)](worksheets/Week%2004%20-%20Worksheet%200%20-%20Syntax%20-%20for%20loops.ipynb)
+* [Week 03, Worksheet 1: Data structures (tuples, lists, and slices)](worksheets/Week%2004%20-%20Worksheet%201%20-%20Data%20structures%20(dict).ipynb)
 
 ## Lab
 
-* [G. Wiz and Civil Service](lab/.ipynb)
+* [G. Wiz and the Ballot Bonanza](lab/Week%2004%20-%20Lab%20-%20The%20Ballot%20Bonanza.ipynb)
 
 ## Wrap-up
 
